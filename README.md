@@ -157,4 +157,4 @@ What worked well: asking Claude to explain each line of code individually rather
 
 ## Author
 
-- GitHub - [Add your username here](https://github.com/Ismail-SWE)
+- GitHub - [Ismail-SWE](https://github.com/Ismail-SWE)
