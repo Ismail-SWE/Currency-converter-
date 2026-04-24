@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ismail-SWE/Currency-converter-)
-- Live Site URL: [Add live site URL here](https://ismail-swe.github.io/Currency-converter-/)
+- Solution URL: (https://github.com/Ismail-SWE/Currency-converter-)
+- Live Site URL: (https://ismail-swe.github.io/Currency-converter-/)
 
 ## My process
 
