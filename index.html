@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <title>Currency Exchanger</title>
+</head>
+<body>
+
+    <div class="container px-4">
+        <h1> Currency Rate </h1>
+
+        <table class="table table-striped">
+            <thead>
+                <th>
+                    Currency
+                </th>
+                <th>
+                    Amount
+                </th>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+        </table> 
+
+        <h2>Currency calculation</h2>
+        <div class="row p-3" id="converter">
+            
+            <div class="col-6 col-sm-3">
+                <label for="from-currency" class="form-label">Base currency</label>
+                <select id="from-currency" class="form-select"></select>
+            </div>
+            <div class="col-6 col-sm-3">
+                <label for="to-currency" class="form-label">Desired currency</label>
+                <select id="to-currency" class="form-select"></select>
+            </div>
+
+
+            <div class="col-6 col-sm-3">
+                <label for="amount" class="form-label">Amount</label>
+                <input id="amount" type="number" class="form-control">
+            </div>
+            <div class="col-6 col-sm-3 d-flex align-items-end">
+                <button id="convert" class="btn btn-success">Convert</button>
+                <h4 id="result" class="ms-2">Result: </h4>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
